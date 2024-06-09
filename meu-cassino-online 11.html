@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>fire7xis</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #000; /* Adicionando um fundo preto */
+            color: #fff;
+            line-height: 1.6;
+        }
+        header {
+            background: linear-gradient(90deg, #ff0055, #ffcc00);
+            padding: 20px 0;
+            text-align: center;
+        }
+        header h1 {
+            margin: 0;
+            font-size: 5em; /* Aumentando o tamanho do texto */
+            color: #ff0000; /* Mudança da cor do texto para vermelho */
+            background-image: url("https://th.bing.com/th/id/OIG3.84oOfWchDlbUQsYjIYdE?w=1024&h=1024&rs=1&pid=ImgDetMain"); /* Alterando o fundo para a imagem */
+            padding: 20px; /* Espaçamento interno */
+            border-radius: 10px; /* Borda arredondada */
+            font-family: "Lucida Sans", sans-serif; /* Alterando a fonte */
+            text-shadow: 0 0 10px #fff, 0 0 20px #fff, 0 0 30px #fff, 0 0 40px #ffcc00, 0 0 70px #ffcc00, 0 0 80px #ffcc00, 0 0 100px #ffcc00, 0 0 150px #ffcc00; /* Adicionando efeito neon */
+            letter-spacing: 10px; /* Espaçamento entre letras */
+        }
+        nav {
+            display: flex;
+            justify-content: center;
+            background: #222;
+            padding: 10px;
+        }
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 10px 20px;
+        }
+        nav a:hover {
+            background: #ffcc00;
+            color: #000;
+        }
+        .container {
+            padding: 20px;
+        }
+        .content {
+            margin: 20px 0;
+        }
+        .content h2 {
+            color: #ffcc00;
+        }
+        .gallery {
+            position: relative;
+        }
+        .gallery img {
+            width: 100%;
+            max-width: 300px;
+            margin: 10px;
+            border: 5px solid #ffcc00;
+        }
+        .gallery .text-overlay {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            color: white;
+            font-size: 20px;
+            font-weight: bold;
+            background-color: rgba(0, 0, 0, 0.5);
+            padding: 5px 10px;
+        }
+        .video iframe {
+            width: 100%;
+            max-width: 560px;
+            height: 315px;
+            margin: 10px 0;
+        }
+        footer {
+            background: #222;
+            color: #fff;
+            text-align: center;
+            padding: 10px 0;
+        }
+        footer a {
+            color: #ffcc00;
+            text-decoration: none;
+        }
+
+        /* Estilos para o botão "Jogue Agora" */
+        .custom-button {
+            background-color: #0000FF; /* Fundo azul */
+            color: #FFFF00; /* Letras amarelas */
+            padding: 10px 20px; /* Espaçamento interno */
+            border: none; /* Remove a borda */
+            border-radius: 5px; /* Borda arredondada */
+            text-decoration: none; /* Remove sublinhado */
+            display: inline-block; /* Torna o elemento um bloco inline */
+            transition: background-color 0.3s ease; /* Transição suave de cor de fundo */
+        }
+
+        .custom-button:hover {
+            background-color: #00008B; /* Altera a cor de fundo ao passar o mouse */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>fire7xis</h1>
+    </header>
+    <nav>
+        <a href="#sobre">Sobre</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+    </nav>
+    <div class="container">
+        <section id="sobre" class="content">
+            <h2>Sobre</h2>
+            <p>Bem-vindo ao meu site de cassino online! Aqui você encontrará as melhores dicas e truques para ganhar muito dinheiro jogando nos melhores cassinos online. Nossa missão é garantir que você tenha a melhor experiência possível e maximize seus ganhos.</p>
+        </section>
+        <section id="portfolio" class="content">
+            <h2>Portfólio</h2>
+            <div class="gallery">
+                <img src="https://th.bing.com/th/id/OIG1.N3qHhEqK9_p3s8EJHfnv?pid=ImgGn" alt="Cassino 1">
+                <img src="https://th.bing.com/th/id/OIG2.rDUoC5Z9IhjKn64vcUmS?w=1024&h=1024&rs=1&pid=ImgDetMain" alt="Cassino 2">
+                <div class="text-overlay">PLATAFORMA APOIADA PELA ANITA</div>
+                <img src="https://th.bing.com/th/id/OIG3.iMtsxTe2et4SZaIOAzpL?pid=ImgGn" alt="Cassino 3">
+            </div>
+            <div class="video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/WSUC34ho2Cg" frameborder="0" allowfullscreen></iframe>
+            </div>
+        </section>
+
+        <!-- Botão "Jogue Agora" -->
+        <a href="https://www.youtube.com/watch?v=k1b9ND7-jjI" target="_blank" class="custom-button">Jogue Agora</a>
+<section id="contato" class="content">
+    <h2>Contato</h2>
+    <p>Entre em contato comigo através do formulário abaixo ou pelas redes sociais.</p>
+    <form>
+        <label for="name">Nome:</label><br>
+        <input type="text" id="name" name="name" required><br><br>
+        <label for="email">Email:</label><br>
+        <input type="email" id="email" name="email" required><br><br>
+        <label for="message">Mensagem:</label><br>
+        <textarea id="message" name="message" rows="4" required></textarea><br><br>
+        <input type="submit" value="Enviar">
+    </form>
+    <p>Siga-me nas redes sociais:</p>
+    <p>
+        <a href="https://facebook.com" target="_blank">Facebook</a> |
+        <a href="https://twitter.com" target="_blank">Twitter</a> |     
+        <a href="https://instagram.com/fire7xis/" target="_blank">Instagram</a> |
+        <p>Ou envie um email para: <a href="mailto:fire7xisctt@gmail.com">fire7xisctt@gmail.com</a></p>
+    </p>
+    </div>
+    <footer>
+        &copy; 2024 fire7xis - Todos os direitos reservados
+    </footer>
+</body>
+</html>
+
+
